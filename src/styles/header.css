@@ -1,0 +1,166 @@
+.header{
+    width:100%;
+}
+.header-extended{
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 38px;
+    color: #ffffff;
+    background-color:#000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-extended a{
+    text-decoration: underline;
+    color: white;
+}
+.main-header{
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    height: 100px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    display: none;
+}
+.sheet{
+    width: 3%;
+    display: none;
+    margin-right:30px;
+}
+.middle-header{
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+.middle-elements{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 40%;
+}
+.middle-header h1{
+    font-size: 1em;
+    font-weight:400;   
+}
+.logo h1{
+    letter-spacing:-2.0px;
+    font-weight: bolder;
+    font-size:  1.5em;
+}
+.middle-header select{
+    font-size: 1..05em;
+    border: none;
+}
+.middle-header select:active{
+    border: none;
+    cursor: pointer;
+}
+.Search{
+    margin-left: 5px;
+    color: #909090;
+}
+.searchbar{
+    padding-left: 10px;
+    height: max-content;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 80%;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 62px;
+}
+.searchbar input{
+    width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 62px;
+}
+.searchbar :placeholder-shown{
+    padding: 20px;
+}
+.searchbar input:placeholder-shown{
+    border: none;
+}
+.last-header{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.shoppingcart{
+    margin-right: 10px;
+}
+.middle-elements-insheet h1{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.middle-elements-insheet{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1285px) {
+    .searchbar{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .menu{
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .logo h1{
+        font-size: 2.25em;
+    }
+    .searchbar{
+        width: 25%;
+    }
+    .sheet{
+    display:flex;
+    }
+    .search{
+        display: flex;
+    }
+    .searchbar{
+        display: none;
+    }
+    .middle-elements{
+        display: none;
+    }
+    .after-responsive{
+        width:25%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .middle-header{
+        justify-content: space-between;
+    }
+    .main-header{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .header-extended p{
+        font-size: smaller;
+    }
+}
+@media screen and (max-width:500px){
+    .header-extended p{
+        font-size: x-small;
+    }
+}
