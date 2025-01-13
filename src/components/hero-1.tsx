@@ -28,11 +28,11 @@ export default function Hero1(){
             </div>
             <div className="right">
             <div className="s-star">
-            <Image className="small-star"  src="/vector.png" height={50} width={50} alt="vector" ></Image>
+            <Image className="small-star"  src="/Vector.png" height={50} width={50} alt="vector" ></Image>
             </div>
             <Image className="hero-1-bg" src="/hero-1-bg.jpeg" alt="bg" height={4096} width={2730}/>
             <div className="bigg-star">
-            <Image className="big-star" src="/vector.png" height={65} width={65} alt="vector" ></Image>
+            <Image className="big-star" src="/Vector.png" height={65} width={65} alt="vector" ></Image>
             </div>
             </div>
             </div>
