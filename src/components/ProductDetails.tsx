@@ -34,7 +34,7 @@ interface ProductDetailsProps {
 }
 
 export default function ProductDetails({ product }: ProductDetailsProps) {
-  const [quantity, setQuantity] = useState(0);
+  const [quantity, setQuantity] = useState(1);
 
   const newPrice = product.price - (product.price * (product.discountPercent || 0)) / 100;
   const totalPrice = newPrice * quantity; // Calculate total price based on quantity
@@ -46,7 +46,7 @@ export default function ProductDetails({ product }: ProductDetailsProps) {
   };
 
   const decrementQuantity = () => {
-    if (quantity > 0) {
+    if (quantity > 1) {
       setQuantity(quantity - 1);
     }
   };
