@@ -1,0 +1,22 @@
+@media screen and (max-width: 1110px) {
+    
+    #heading-box{
+        width: 60%;
+    }
+    }
+    @media screen and (max-width: 945px) {
+        #heading{
+            width: 100%;
+            font-size: 2.5rem;
+        }
+            #main-box{
+         justify-content: center;
+        } 
+        #heading-box{
+            width:100%;
+        }
+        #r-box{
+        width:100%;
+        margin-right: 0px;
+        }
+        }

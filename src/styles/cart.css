@@ -1,0 +1,23 @@
+@media screen and (max-width:1095px) {
+    #cart-box{
+        flex-direction: column;
+    }
+    #l-c-box{
+        width: 80%;
+    }
+    #r-c-box{
+        width: 80%;
+    }
+    #i-box1{
+        height: 99px;
+        width: 99px;
+    }
+    #i-box2{
+        height: 99px;
+        width: 99px;
+    }
+    #i-box3{
+        height: 99px;
+        width: 99px;
+    }
+}

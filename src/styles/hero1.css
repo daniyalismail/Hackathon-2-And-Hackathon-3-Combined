@@ -1,33 +1,64 @@
-.hero-1{
-    position: relative;
-    width: 100%;
-     grid-template-columns: 60% 40%; 
-    display:grid; 
-    /* display: flex; */
-    padding-top: 30px;
-    background-color:#f2f0f1;
-    height:auto;
-    justify-content: center;
-    /* column-gap: 50px; */
-    /* display: flex;
-    justify-content: space-between; */
+/* Add continuous circular animation to vector images */
+.small-star, .big-star {
+    animation: rotate 5s linear infinite; /* Rotate continuously */
 }
-.hero-1-bg{
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Add hover effect to the Shop Now button */
+.s-button button {
+    background-color: black;
+    height: 52px;
+    width: 210px;
+    border-radius: 62px;
+    border: none;
+    color: white;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .s-button button:hover {
+        transform: translateY(-0.25rem) scale(1.1); /* Hover effect */
+    }
+}
+
+/* Remove hover effect from .hero-1-bg */
+.hero-1-bg {
     height: auto;
     width: 70%;
     display: flex;
     justify-content: center;
 }
-.right{
-    display: flex;
-    grid-template-columns:10% 80% 10%;
-    grid-column:2;
+
+/* Existing CSS rules */
+.hero-1 {
+    position: relative;
+    width: 100%;
+    grid-template-columns: 60% 40%;
+    display: grid;
+    padding-top: 30px;
+    background-color: #f2f0f1;
+    height: auto;
     justify-content: center;
-    width:100%;
+}
+
+.right {
+    display: flex;
+    grid-template-columns: 10% 80% 10%;
+    grid-column: 2;
+    justify-content: center;
+    width: 100%;
     height: auto;
 }
-.left{
-    
+
+.left {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,141 +66,126 @@
     grid-column: 1;
     height: auto;
 }
-.hero-1-bg{
-    height:auto;
+
+.hero-1-bg {
+    height: auto;
     width: 60%;
 }
-.top{
+
+.top {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 70%;
 }
-.top h1{
+
+.top h1 {
     width: auto;
-    font-size:6em ;
-    font-weight:bolder;
+    font-size: 6em;
+    font-weight: bolder;
     line-height: 80px;
     word-spacing: 5px;
     letter-spacing: -4px;
-    color: black
+    color: black;
 }
-.top p{
-    color:#747373;
+
+.top p {
+    color: #747373;
     margin-top: 10px;
 }
-.s-button{
+
+.s-button {
     margin-top: 30px;
     margin-bottom: 30px;
     width: 70%;
 }
-.s-button button{
-    background-color: black;
-    height: 52px;
-    width: 210px;
-    border-radius: 62px;
-    border:none ;
-    color: white;
-}
-.bottom{
+
+.bottom {
     display: none;
 }
-.s-star{
+
+.s-star {
     width: 5%;
     display: flex;
     align-items: center;
-    
 }
-.bigg-star{
+
+.bigg-star {
     padding-top: 80px;
     width: 15%;
 }
-/* @media screen and (max-width: 1175px) {
-    .right{
-        justify-content: center;
-    }
-    .hero-1{
-        flex-wrap: wrap;
-    }
-} */
-@media screen and (max-width:1110px) {
-    /* .s-star{
-        height: auto !important;
-        width:auto;
-    }
-    .b-star{
-    height: auto;        
-        width: auto;
-    }
-    
-    .hero-1-bg{
-        height:auto;
-        width: auto;
-    } */
-    .right{
+
+@media screen and (max-width: 1110px) {
+    .right {
         height: auto;
         width: auto;
     }
 }
+
 @media screen and (max-width: 915px) {
-    .hero-1{
+    .hero-1 {
         display: flex;
         flex-wrap: wrap;
     }
-    .right{
+
+    .right {
         width: 100%;
     }
-    .bottom{
+
+    .bottom {
         display: flex;
         width: 70%;
-        height:48px;
+        height: 48px;
         align-items: center;
         justify-content: center;
-        flex-wrap:wrap;
+        flex-wrap: wrap;
     }
-    .bottom h1{
+
+    .bottom h1 {
         font-size: x-large;
         font-weight: 700;
     }
-    .bottom p{
+
+    .bottom p {
         font-size: xx-small;
     }
-    .bottom div{
+
+    .bottom div {
         padding-left: 10px;
         padding-right: 10px;
         height: 48px;
-        width: 120px;   
+        width: 120px;
     }
-    .box2{
-        border-left:2px solid #dad8d9;
-        border-right:2px solid #dad8d9;
+
+    .box2 {
+        border-left: 2px solid #dad8d9;
+        border-right: 2px solid #dad8d9;
     }
-    .s-button button{
+
+    .s-button button {
         background-color: black;
         height: 52px;
         width: 100%;
         border-radius: 62px;
-        border:none ;
+        border: none;
         color: white;
     }
-    .left{
+
+    .left {
         padding-top: 20px;
         padding-bottom: 60px;
     }
-    /* }
-    .hero-1-bg{
-        height:auto;
-        width: 70%;
-    } */
 }
+
 @media screen and (max-width: 915px) {
-    .top h1{
+    .top h1 {
         line-height: 50px;
         font-size: 3em;
     }
 }
-@media screen and (max-width: 500px){
-    .box2{
-        border-right:none;
-    }    
+
+@media screen and (max-width: 500px) {
+    .box2 {
+        border-right: none;
+    }
 }

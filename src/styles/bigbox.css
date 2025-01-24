@@ -16,6 +16,39 @@
     padding: 20px;
 
 }
+.casual {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.casual:hover {
+    transform: translateY(-1px) scale(1.1);
+}
+.formal {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.formal:hover {
+    transform: translateY(-1px) scale(1.1);
+}
+.party {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.party:hover {
+    transform: translateY(-1px) scale(1.1);
+}
+.gym {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gym:hover {
+    transform: translateY(-1px) scale(1.1);
+}
+
 .div1{
     padding: 20px;
     display: flex;

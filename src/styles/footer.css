@@ -1,0 +1,10 @@
+/* @media screen and (max-width: 1002px){
+ #l-box-content{
+    width: 100%;
+ }
+}
+@media screen and (max-width: 737px){
+ #r-box-content{
+    flex-wrap: wrap;
+ }
+} */

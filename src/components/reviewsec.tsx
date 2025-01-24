@@ -10,8 +10,8 @@ export default function Reviewsec(){
                 <div className="top-sec">
                 <h1>OUR HAPPPY CUSTOMERS</h1>
                 <div className="arrow">
-                <FaArrowRight className="mr-5"/>
-                <FaArrowLeft/>
+                <FaArrowRight className="mr-5 hidden md-[600px]:block transform motion-safe:hover:-translate-y-1 motion-safe:hover:scale-110 transition ease-in-out duration-300"/>
+                <FaArrowLeft className="hidden md-[600px]:block transform motion-safe:hover:-translate-y-1 motion-safe:hover:scale-110 transition ease-in-out duration-300"/>
                 </div>
                 </div>
                 <div className="gridsec">
