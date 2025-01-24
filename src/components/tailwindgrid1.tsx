@@ -2,6 +2,7 @@ import Image from "next/image";
 import { FaStar } from "react-icons/fa6";
 import "../styles/g.css";
 import Link from "next/link";
+
 interface Iproducts {
   title: string;
   price: string;
@@ -64,9 +65,8 @@ export default function TailwindGrid1() {
         className="flex pb-5 pt-5 gap-6 mt-6 mb-6 overflow-x-auto  snap-x snap-mandatory pl-[calc(50%-147.5px)] pr-[calc(50%-147.5px)] lg:justify-center lg:overflow-x-visible lg:pl-0 lg:pr-0"
       >
         {products.map((product) => (
-          <Link href={`/NewArrival/${product.title}`}>
+          <Link href={`/NewArrival/${product.title}`} key={product.id}>
             <div
-              key={product.id}
               className="cursor-pointer transform motion-safe:hover:-translate-y-1 motion-safe:hover:scale-110 transition ease-in-out duration-300
                     snap-start flex-shrink-0"
             >
