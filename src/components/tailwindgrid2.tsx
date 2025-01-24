@@ -49,7 +49,7 @@ let products: Iproducts[] = [
     star: 4,
     oldPrice: "$170",
     discountPercent: "-16%",
-    image_url: "/grid/grid-pic-8.png",
+    image_url: "/grid/grid-pic-8.jpg",
   },
 ];
 
