@@ -53,6 +53,9 @@ export default function ProductDetails({ product }: ProductDetailsProps) {
 
   return (
     <main className="w-full">
+      <div className="w-full flex justify-center">
+      <hr className="border-[1px] border-[#e6e6e6] w-[80%] mt-2 mb-4" />
+      </div>
       <div id="br" className="w-[60%] flex justify-center">
         <Breadcrumb>
           <BreadcrumbList className="text-xs">

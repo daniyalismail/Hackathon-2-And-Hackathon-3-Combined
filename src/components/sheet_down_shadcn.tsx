@@ -71,8 +71,8 @@ export function SheetSide2() {
               <p>Jeans</p>
               <FaChevronRight />
             </div>
-            <hr className="w-[100% ] mt-2 mb-2 border-[1px] border-[#e6e6e6]" />
-            <div className="text-base text-[#666666] flex justify-between items-center mt- mb-1">
+            <hr className="w-[100% ] mt-1 mb-1 border-[1px] border-[#e6e6e6]" />
+            <div className="text-base text-[#666666] flex justify-between items-center mt-1 mb-1">
               <p className="font-semibold text-black">Price</p>
               <FaChevronUp />
             </div>
@@ -86,7 +86,7 @@ export function SheetSide2() {
               />
               <p>$200</p>
             </div>
-            <hr className="w-[100% ] mt-2 mb-2 border-[1px] border-[#e6e6e6]" />
+            <hr className="w-[100% ] mt-1 mb-1 border-[1px] border-[#e6e6e6]" />
             <div className="text-base text-[#666666] flex justify-between items-center mt-1 mb-1">
               <p className="font-semibold text-black">Colors</p>
               <FaChevronUp />
@@ -124,7 +124,7 @@ export function SheetSide2() {
                   <p className="text-[#60a5fa]"></p>
                 </div>
               </div>
-              <div className="w-full flex justify-between items-center mt-2">
+              <div className="w-full flex justify-between items-center mt-1">
                 <div
                   className=" cursor-pointer w-[20px] h-[20px] bg-blue-800 rounded-full border-[1px] border-[#e6e6e6]
               transform motion-safe:hover:-translate-y-1 motion-safe:hover:scale-110 transition ease-in-out duration-300"
@@ -157,12 +157,12 @@ export function SheetSide2() {
                 </div>
               </div>
             </div>
-            <hr className="w-[100% ] mt-2 mb-2 border-[1px] border-[#e6e6e6]" />
-            <div className="text-base text-[#666666] flex justify-between items-center mt-2 mb-2">
+            <hr className="w-[100% ] mt-1 mb-1 border-[1px] border-[#e6e6e6]" />
+            <div className="text-base text-[#666666] flex justify-between items-center mt-1 mb-1">
               <p className="font-semibold text-black">Size</p>
               <FaChevronUp />
             </div>
-            <div className="flex flex-wrap gap-3 mt-2">
+            <div className="flex flex-wrap gap-3 mt-1">
               <div
                 className="transform motion-safe:hover:-translate-y-1 motion-safe:hover:scale-110 transition ease-in-out duration-300
               cursor-pointer flex justify-center hover:bg-black hover:text-white items-center rounded-xl w-[40%] h-[50%] bg-[#f0f0f0] text-[##606060]"
@@ -218,7 +218,7 @@ export function SheetSide2() {
                 <p>4X-Large</p>
               </div>
             </div>
-            <hr className="w-[100% ] mt-2 mb-2 border-[1px] border-[#e6e6e6]"/>
+            <hr className="w-[100% ] mt-1 mb-1 border-[1px] border-[#e6e6e6]"/>
             <div className="text-base text-[#666666] flex justify-between items-center mt-1 mb-1">
               <p className="font-semibold text-black">Dress Style</p>
               <FaChevronUp />
@@ -241,7 +241,7 @@ export function SheetSide2() {
             </div>
             <div
               className="py-2 transform motion-safe:hover:-translate-y-1 motion-safe:hover:scale-110 transition ease-in-out duration-300 cursor-pointer
-            w-full h-[100%] text-white flex items-center justify-center rounded-3xl bg-black mt-3 mb-1"
+            w-full h-[100%] text-white flex items-center justify-center rounded-3xl bg-black mt-2 mb-1"
             >
               <button>Apply Filter</button>
             </div>

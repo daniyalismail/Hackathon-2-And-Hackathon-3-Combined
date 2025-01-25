@@ -14,6 +14,7 @@ import Image from "next/image";
 import { FiMinus } from "react-icons/fi";
 import { GoPlus } from "react-icons/go";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Cart() {
   const [quantity1, setQuantity1] = useState(1);
@@ -107,6 +108,7 @@ export default function Cart() {
       </div>
       <div id="cart-box" className="w-full flex justify-center items-center gap-2">
         <div id="l-c-box" className="w-[50%] flex-col items-center justify-center  border-[1px] border-[#e6e6e6] rounded-lg">
+          <Link href="/Products/Black Striped T-Shirt">
           <div className="w-[100%] p-2 h-full flex  items-center">
             <div id="i-box1" className="w-[20%] rounded-xl">
               <Image
@@ -150,9 +152,11 @@ export default function Cart() {
               </div>
             </div>
           </div>
+          </Link>
           <div className="w-full flex justify-center">
           <hr className="w-[98%]  border-[1px] border-[#e6e6e6]" />
           </div>
+          <Link href="/Products/Black Striped T-Shirt">
           <div className="w-[100%] p-2 h-full flex  rounded-lg items-center">
             <div id="i-box2" className="w-[20%] rounded-xl">
               <Image
@@ -196,9 +200,11 @@ export default function Cart() {
               </div>
             </div>
           </div>
+          </Link>
           <div className="w-full flex justify-center">
           <hr className="w-[98%]  border-[1px] border-[#e6e6e6]" />
           </div>
+          <Link href="/Products/Black Striped T-Shirt">
           <div className="w-[100%] p-2 h-full flex  items-center">
             <div id="i-box3" className="w-[20%] rounded-xl">
               <Image
@@ -242,6 +248,7 @@ export default function Cart() {
               </div>
             </div>
           </div>
+          </Link>
         </div>
         <div id="r-c-box" className="w-[30%] p-2 border-[1px] border-[#e6e6e6] rounded-md">
           <div>

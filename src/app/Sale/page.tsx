@@ -52,6 +52,9 @@ export default async function Sale() {
       id="m-box"
       className="w-full flex-col flex items-center justify-center"
     >
+      <div className="w-full flex justify-center">
+      <hr className="border-[1px] border-[#e6e6e6] w-[75%] mt-2 mb-4" />
+      </div>
       <div
         id="breadcrumb-box"
         className="w-[75%]  mb-6 flex items-center justify-start"
