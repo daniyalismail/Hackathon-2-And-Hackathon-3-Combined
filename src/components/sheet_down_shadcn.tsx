@@ -51,28 +51,28 @@ export function SheetSide2() {
               </SheetTitle>
             </SheetHeader>
             <hr className="w-[100% ] mt-1 border-[1px] border-[#e6e6e6]" />
-            <div className=" text-sm text-[#666666] flex justify-between items-center mt-1">
+            <div className=" text-xs text-[#666666] flex justify-between items-center mt-1">
               <p>T-shirts</p>
               <FaChevronRight />
             </div>
-            <div className=" text-sm text-[#666666] flex justify-between items-center mt-1">
+            <div className=" text-xs text-[#666666] flex justify-between items-center mt-1">
               <p>Shorts</p>
               <FaChevronRight />
             </div>
-            <div className=" text-sm text-[#666666] flex justify-between items-center mt-1">
+            <div className=" text-xs text-[#666666] flex justify-between items-center mt-1">
               <p>Shirts</p>
               <FaChevronRight />
             </div>
-            <div className=" text-sm text-[#666666] flex justify-between items-center mt-1">
+            <div className=" text-xs text-[#666666] flex justify-between items-center mt-1">
               <p>Hoodie</p>
               <FaChevronRight />
             </div>
-            <div className=" text-sm text-[#666666] flex justify-between items-center mt-1">
+            <div className=" text-xs text-[#666666] flex justify-between items-center mt-1">
               <p>Jeans</p>
               <FaChevronRight />
             </div>
             <hr className="w-[100% ] mt-1 mb-1 border-[1px] border-[#e6e6e6]" />
-            <div className="text-base text-[#666666] flex justify-between items-center mt-1 mb-1">
+            <div className="text-sm text-[#666666] flex justify-between items-center mt-1 mb-1">
               <p className="font-semibold text-black">Price</p>
               <FaChevronUp />
             </div>
@@ -87,7 +87,7 @@ export function SheetSide2() {
               <p>$200</p>
             </div>
             <hr className="w-[100% ] mt-1 mb-1 border-[1px] border-[#e6e6e6]" />
-            <div className="text-base text-[#666666] flex justify-between items-center mt-1 mb-1">
+            <div className="text-sm text-[#666666] flex justify-between items-center mt-1 mb-1">
               <p className="font-semibold text-black">Colors</p>
               <FaChevronUp />
             </div>
@@ -158,7 +158,7 @@ export function SheetSide2() {
               </div>
             </div>
             <hr className="w-[100% ] mt-1 mb-1 border-[1px] border-[#e6e6e6]" />
-            <div className="text-base text-[#666666] flex justify-between items-center mt-1 mb-1">
+            <div className="text-sm text-[#666666] flex justify-between items-center mt-1 mb-1">
               <p className="font-semibold text-black">Size</p>
               <FaChevronUp />
             </div>
@@ -219,23 +219,23 @@ export function SheetSide2() {
               </div>
             </div>
             <hr className="w-[100% ] mt-1 mb-1 border-[1px] border-[#e6e6e6]"/>
-            <div className="text-base text-[#666666] flex justify-between items-center mt-1 mb-1">
+            <div className="text-sm text-[#666666] flex justify-between items-center mt-1 mb-1">
               <p className="font-semibold text-black">Dress Style</p>
               <FaChevronUp />
             </div>
-            <div className=" text-sm text-[#666666] flex justify-between items-center mt-1">
+            <div className=" text-xs text-[#666666] flex justify-between items-center mt-1">
               <p>Casual</p>
               <FaChevronRight />
             </div>
-            <div className=" text-sm text-[#666666] flex justify-between items-center mt-1">
+            <div className=" text-xs text-[#666666] flex justify-between items-center mt-1">
               <p>Formal</p>
               <FaChevronRight />
             </div>
-            <div className=" text-sm text-[#666666] flex justify-between items-center mt-1">
+            <div className=" text-xs text-[#666666] flex justify-between items-center mt-1">
               <p>Party</p>
               <FaChevronRight />
             </div>
-            <div className=" text-sm text-[#666666] flex justify-between items-center mt-1">
+            <div className=" text-xs text-[#666666] flex justify-between items-center mt-1">
               <p>Gym</p>
               <FaChevronRight />
             </div>
