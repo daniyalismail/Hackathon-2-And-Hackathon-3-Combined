@@ -240,7 +240,7 @@ export function SheetSide2() {
               <FaChevronRight />
             </div>
             <div
-              className="py-2 transform motion-safe:hover:-translate-y-1 motion-safe:hover:scale-110 transition ease-in-out duration-300 cursor-pointer
+              className="py-1 transform motion-safe:hover:-translate-y-1 motion-safe:hover:scale-110 transition ease-in-out duration-300 cursor-pointer
             w-full h-[100%] text-white flex items-center justify-center rounded-3xl bg-black mt-1 mb-1"
             >
               <button>Apply Filter</button>
