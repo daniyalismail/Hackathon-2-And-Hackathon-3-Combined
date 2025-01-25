@@ -243,8 +243,7 @@
   
     .after-responsive {
       width: 25%;
-      background-color: aqua;
-      margin-left: 5px;
+      margin-left: 8px;
       display: flex;
       justify-content: space-around;
     }
