@@ -21,9 +21,9 @@ export default function Cart() {
   const [quantity2, setQuantity2] = useState(1);
   const [quantity3, setQuantity3] = useState(1);
 
-  const price1 = 145; // Price of Black Striped T-Shirt
-  const price2 = 180; // Price of Skinny Fit Jeans
-  const price3 = 240; // Price of Checkered Shirt
+  const price1 = 145; 
+  const price2 = 180;
+  const price3 = 240;
 
   const incrementQuantity1 = () => {
     if (quantity1 < 20) {
@@ -60,19 +60,11 @@ export default function Cart() {
       setQuantity3(quantity3 - 1);
     }
   };
-
-  // Calculate the total price for each product
   const totalPrice1 = price1 * quantity1;
   const totalPrice2 = price2 * quantity2;
   const totalPrice3 = price3 * quantity3;
-
-  // Calculate the subtotal
   const subtotal = totalPrice1 + totalPrice2 + totalPrice3;
-
-  // Calculate the discount (20% of subtotal)
   const discount = subtotal * 0.2;
-
-  // Calculate the total price after discount and adding delivery fee
   const deliveryFee = 15;
   const totalPrice = subtotal - discount + deliveryFee;
 
@@ -108,7 +100,6 @@ export default function Cart() {
       </div>
       <div id="cart-box" className="w-full flex justify-center items-center gap-2">
         <div id="l-c-box" className="w-[50%] flex-col items-center justify-center  border-[1px] border-[#e6e6e6] rounded-lg">
-          <Link href="/Products/Black Striped T-Shirt">
           <div className="w-[100%] p-2 h-full flex  items-center">
             <div id="i-box1" className="w-[20%] rounded-xl">
               <Image
@@ -120,7 +111,9 @@ export default function Cart() {
             </div>
             <div className="flex-col justify-between p-2 w-full">
               <div className="flex justify-between w-full items-center">
+              <Link href="/Products/Black Striped T-Shirt">
                 <h1 className="text-sm md-[1095px]:text-xl font-semibold">Black Striped T-Shirt</h1>
+                </Link>
                 <RiDeleteBin6Fill
                   className="text-[#ff3333]
                 cursor-pointer transform motion-safe:hover:-translate-y-1 motion-safe:hover:scale-110 transition ease-in-out duration-300"
@@ -152,11 +145,9 @@ export default function Cart() {
               </div>
             </div>
           </div>
-          </Link>
           <div className="w-full flex justify-center">
           <hr className="w-[98%]  border-[1px] border-[#e6e6e6]" />
           </div>
-          <Link href="/Products/Black Striped T-Shirt">
           <div className="w-[100%] p-2 h-full flex  rounded-lg items-center">
             <div id="i-box2" className="w-[20%] rounded-xl">
               <Image
@@ -168,7 +159,9 @@ export default function Cart() {
             </div>
             <div className="flex-col justify-between p-2 w-full">
               <div className="flex justify-between w-full items-center">
+              <Link href="/Products/Skinny Fit Jeans">               
                 <h1 className="text-sm md-[1095px]:text-xl font-semibold">Skinny Fit Jeans</h1>
+                </Link>
                 <RiDeleteBin6Fill
                   className="text-[#ff3333]
                 cursor-pointer transform motion-safe:hover:-translate-y-1 motion-safe:hover:scale-110 transition ease-in-out duration-300"
@@ -200,11 +193,9 @@ export default function Cart() {
               </div>
             </div>
           </div>
-          </Link>
           <div className="w-full flex justify-center">
           <hr className="w-[98%]  border-[1px] border-[#e6e6e6]" />
           </div>
-          <Link href="/Products/Black Striped T-Shirt">
           <div className="w-[100%] p-2 h-full flex  items-center">
             <div id="i-box3" className="w-[20%] rounded-xl">
               <Image
@@ -216,7 +207,9 @@ export default function Cart() {
             </div>
             <div className="flex-col justify-between p-2 w-full">
               <div className="flex justify-between w-full items-center">
+              <Link href="/Products/Checkered Shirt">
                 <h1 className="text-sm md-[1095px]:text-xl font-semibold">Checkered Shirt</h1>
+                </Link>
                 <RiDeleteBin6Fill
                   className="text-[#ff3333]
                 cursor-pointer transform motion-safe:hover:-translate-y-1 motion-safe:hover:scale-110 transition ease-in-out duration-300"
@@ -248,7 +241,6 @@ export default function Cart() {
               </div>
             </div>
           </div>
-          </Link>
         </div>
         <div id="r-c-box" className="w-[30%] p-2 border-[1px] border-[#e6e6e6] rounded-md">
           <div>

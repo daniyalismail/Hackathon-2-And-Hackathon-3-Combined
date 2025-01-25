@@ -62,8 +62,8 @@ export default async function Sale() {
               </BreadcrumbItem>
               <BreadcrumbSeparator />
               <BreadcrumbItem>
-                <BreadcrumbLink className="text-black" href="/Sale">
-                  On Sale
+                <BreadcrumbLink className="text-black" href="/NewArrival">
+                  New Arrival
                 </BreadcrumbLink>
               </BreadcrumbItem>
               <BreadcrumbSeparator />
@@ -220,7 +220,7 @@ export default async function Sale() {
           <div id="p-box" className="w-[55%] flex-col justify-center">
             <div className="w-full flex justify-center">
             <div className=" w-[80%] flex items-center justify-between">
-            <h1 id="h1" className=" text-xs sm-[650px]:text-4xl font-medium tracking-tighter">
+            <h1 id="h1" className=" text-lg sm-[460px]:text-4xl font-medium tracking-tighter">
               New Arrival
             </h1>
             <div className="flex items-center justify-center gap-2">
