@@ -45,7 +45,7 @@ export function SheetSide2() {
           <SheetContent side={side}>
             <SheetHeader>
               <SheetTitle>
-                <p className="flex items-center justify-start relative bottom-2 font-medium text-2xl">
+                <p className="flex items-center justify-start mt-[-25px] font-medium text-xl">
                   Filters
                 </p>
               </SheetTitle>
@@ -241,7 +241,7 @@ export function SheetSide2() {
             </div>
             <div
               className="py-2 transform motion-safe:hover:-translate-y-1 motion-safe:hover:scale-110 transition ease-in-out duration-300 cursor-pointer
-            w-full h-[100%] text-white flex items-center justify-center rounded-3xl bg-black mt-2 mb-1"
+            w-full h-[100%] text-white flex items-center justify-center rounded-3xl bg-black mt-1 mb-1"
             >
               <button>Apply Filter</button>
             </div>
