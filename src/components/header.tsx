@@ -25,7 +25,7 @@ export default function Header() {
 
   return (
     <header className="header">
-      {/* Use CSS to hide the header-extended section */}
+
       <div
         className="header-extended"
         style={{ display: isHeaderExtendedVisible ? "flex" : "none" }}

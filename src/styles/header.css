@@ -161,8 +161,7 @@
     text-align: justify;
   }
   
-  /* Hover effects for links */
-  .middle-elements a h1 {
+    .middle-elements a h1 {
     transition: color 0.3s ease-in-out;
   }
   
@@ -170,7 +169,6 @@
     color: #909090;
   }
   
-  /* Hover effects for sheet content */
   .sheet-content .logo h1 {
     transition: transform 0.3s ease-in-out;
   }
@@ -218,7 +216,7 @@
       display: flex;
       align-items: center;
     }
-  
+    
     .logo h1 {
       font-size: 2.25em;
     }
@@ -245,6 +243,8 @@
   
     .after-responsive {
       width: 25%;
+      background-color: aqua;
+      margin-left: 5px;
       display: flex;
       justify-content: space-around;
     }
