@@ -6,6 +6,7 @@ import { Label } from "@/components/ui/label";
 import { Slider } from "@/components/ui/slider";
 import {
   Sheet,
+  SheetClose,
   SheetContent,
   SheetHeader,
   SheetTitle,
@@ -223,9 +224,12 @@ export function SheetSide2() {
             </div>
             <div
               className="py-1 transform motion-safe:hover:-translate-y-1 motion-safe:hover:scale-110 transition ease-in-out duration-300 cursor-pointer
-            w-full h-[100%] text-white flex items-center justify-center rounded-3xl bg-black mt-1 mb-1"
+            w-full h-[100%] text-white flex items-center justify-center rounded-3xl bg-black mt-2 mb-1"
             >
-              <button>Apply Filter</button>
+            <SheetClose asChild>
+            <Button type="submit">Apply Filter</Button>
+          </SheetClose>
+              {/* <button></button> */}
             </div>
           </SheetContent>
         </Sheet>
