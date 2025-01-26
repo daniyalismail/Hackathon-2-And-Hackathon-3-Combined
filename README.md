@@ -1,6 +1,9 @@
 🚀 Hackathon 2 & 3 Project
 Version
 Status
+
+<h3 align="center">A Next.js Project by M. Daniyal Ismail</h3>
+📖 About Me and My Project
 Hello! My name is M. Daniyal Ismail, and I am a GIAIC student. I was assigned Template No. 1 for this project. I submitted Hackathon 2 with a late submission due to university project deadlines, but I have now almost completed Hackathon 2 and Hackathon 3. Here’s a summary of my progress and remaining tasks:
 
 🚧 Remaining Tasks
