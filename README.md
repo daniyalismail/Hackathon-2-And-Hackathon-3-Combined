@@ -2,7 +2,7 @@
 Version
 Status
 
-<p align="center"> <img src="./logo.png" alt="Logo" width="200"> </p><h3 align="center">A Next.js Project by M. Daniyal Ismail</h3>
+<p align="center"> <img src="/logo.png" alt="Logo" width="200"> </p><h3 align="center">A Next.js Project by M. Daniyal Ismail</h3>
 📖 About Me and My Project
 Hello! My name is M. Daniyal Ismail, and I am a GIAIC student. I was assigned Template No. 1 for this project. I submitted Hackathon 2 with a late submission due to university project deadlines, but I have now almost completed Hackathon 2 and Hackathon 3. Here’s a summary of my progress and remaining tasks:
 
