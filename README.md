@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+**About Me and My Project**
+My name is** M. Daniyal Ismail**, and I am a GIAIC student. I was assigned Template No. 1 for this project. I submitted Hackathon 2 with a late submission due to university project deadlines, but I have now almost completed Hackathon 2 and Hackathon 3. The only remaining tasks are:
 
-## Getting Started
+Add to cart functionality
 
-First, run the development server:
+Shipment API integration
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Checkout with Stripe
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Testing report
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+These tasks require time, and my goal is to complete them in the near future, Inshallah. With guidance from my student leaders, I decided to submit my repository and website for the Hackathon. The reason for the delay is that I have my university final exams in the upcoming week, which limits my ability to complete the remaining tasks within the given deadline.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**What I’ve Accomplished:**
+Template Replication: I successfully replicated Template 1 with full responsiveness.
 
-## Learn More
+**Hackathon 3 Progress:**
 
-To learn more about Next.js, take a look at the following resources:
+**Day 1 & Day 2:** Prepared and submitted documentation in the documentation folder of my repository.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Day 3: **Integrated Sanity, migrated data, and connected it with the API.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Day 4: **Implemented dynamic routing for every page, product listing, product details page, pagination, filters, breadcrumbs, and quantity increase/decrease functionality using useState. I also added functional logic for increasing/decreasing prices, calculating checkout totals, and applying discounts.
 
-## Deploy on Vercel
+Added animations and hover effects to buttons and other elements to make the website minimalistic and aesthetic.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Visit My Website:**
+Please visit my website and provide feedback: Hackathon 2 - GIAIC
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Acknowledgments:**
+I want to thank all the teachers, student leaders, and my peers for their support and guidance throughout this journey. The knowledge I gained from physical classes, recorded lectures, WhatsApp groups, and Discord channels has been invaluable. Special thanks to everyone who provided light and direction during this challenging yet rewarding quarter.
