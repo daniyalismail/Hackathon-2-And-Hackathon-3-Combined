@@ -199,24 +199,6 @@ export function SheetSide2() {
               >
                 <p>X-Large</p>
               </div>
-              <div
-                className="transform motion-safe:hover:-translate-y-1 motion-safe:hover:scale-110 transition ease-in-out duration-300
-              cursor-pointer flex justify-center items-center rounded-xl w-[40%] h-[50%] bg-[#f0f0f0]  hover:bg-black hover:text-white text-[##606060]"
-              >
-                <p>XX-Large</p>
-              </div>
-              <div
-                className="transform motion-safe:hover:-translate-y-1 motion-safe:hover:scale-110 transition ease-in-out duration-300
-              cursor-pointer flex justify-center items-center rounded-xl w-[40%] h-[50%] bg-[#f0f0f0]  hover:bg-black hover:text-white text-[##606060]"
-              >
-                <p>3X-Large</p>
-              </div>
-              <div
-                className="transform motion-safe:hover:-translate-y-1 motion-safe:hover:scale-110 transition ease-in-out duration-300
-              cursor-pointer flex justify-center items-center rounded-xl w-[40%] h-[50%] bg-[#f0f0f0]  hover:bg-black hover:text-white text-[##606060]"
-              >
-                <p>4X-Large</p>
-              </div>
             </div>
             <hr className="w-[100% ] mt-1 mb-1 border-[1px] border-[#e6e6e6]"/>
             <div className="text-sm text-[#666666] flex justify-between items-center mt-1 mb-1">
