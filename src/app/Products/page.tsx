@@ -63,8 +63,8 @@ export default async function ProductsPage() {
               </BreadcrumbItem>
               <BreadcrumbSeparator />
               <BreadcrumbItem>
-                <BreadcrumbLink className="text-black" href="/Sale">
-                  On Sale
+                <BreadcrumbLink className="text-black" href="/Products">
+                  Casual
                 </BreadcrumbLink>
               </BreadcrumbItem>
               <BreadcrumbSeparator />
